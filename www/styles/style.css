@@ -1,0 +1,68 @@
+.header {
+    margin: auto;
+    width: 637px;
+    display: flex;
+}
+
+#header_button {
+    justify-content: space-between;
+    margin-bottom: -46px;
+}
+
+#header_banniere {
+    justify-content: center;
+}
+
+#header_title {
+    margin-top: -46px;
+    justify-content: flex-end;
+}
+
+.rang {
+    display: flex;
+    margin: auto;
+    width: 637px;
+    margin-top: -46px;
+    justify-content: center;
+}
+
+#rang_2, #rang_4 {
+    justify-content: flex-end;
+}
+
+#rang_3 {
+    width: 797px;
+    justify-content: flex-start;
+}
+
+article {
+    position: relative;
+}
+
+#article {
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+img.superpose {
+    position:  absolute;
+    top: 0px;
+    left: 0px;
+}
+
+img.tag {
+    position:  absolute;
+    top: 10px;
+    left: 0px;
+}
+
+footer {
+    width: 637px;
+    margin: auto;
+    display: flex;
+    margin-top: -46px;
+    justify-content: center;
+}
