@@ -1,3 +1,9 @@
+p {
+    font-family: consolas, monospace, sans-serif;
+    color: #074684;
+    text-align: justify;
+}
+
 .header {
     margin: auto;
     width: 637px;
@@ -10,6 +16,7 @@
 }
 
 #header_banniere {
+    width: 797px;
     justify-content: center;
 }
 
@@ -26,7 +33,7 @@
     justify-content: center;
 }
 
-#rang_2, #rang_4 {
+#rang_2 {
     justify-content: flex-end;
 }
 
@@ -44,17 +51,24 @@ article {
 }
 
 img {
+    z-index: 1;
     display: block;
 }
 
+img.filter:hover {
+    z-index: 10;
+}
+
 img.superpose {
-    position:  absolute;
+    z-index: 5;
+    position: absolute;
     top: 0px;
     left: 0px;
 }
 
 img.tag {
-    position:  absolute;
+    z-index: 10;
+    position: absolute;
     top: 10px;
     left: 0px;
 }
@@ -65,4 +79,45 @@ footer {
     display: flex;
     margin-top: -46px;
     justify-content: center;
+}
+
+/* CSS propre à la page Article */
+
+img.cadre {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+#article_titre {
+    margin-top: 17px;
+}
+
+#article_nav {
+    width: 797px;
+    justify-content: space-between;
+    margin-top: -47px;
+}
+
+#article_corps {
+    margin-top: -48px;
+}
+
+#article_text {
+    border-left: 2px solid #f2efb6;
+    border-right: 2px solid #f2efb6;
+    flex-direction: column;
+    width: 599px;
+    padding: 5px 17px 0px 17px;
+    margin-top: -1px;
+}
+
+#article_about {
+    margin-top: -47px;
+    width: 795px;
+    justify-content: flex-end;
+}
+
+#cadre_bas {
+    margin-top: 0px;
 }
