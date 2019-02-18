@@ -42,7 +42,7 @@ p {
     justify-content: flex-start;
 }
 
-article {
+article, nav {
     position: relative;
 }
 
